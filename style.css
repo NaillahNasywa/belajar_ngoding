@@ -1,11 +1,11 @@
 :root{
-    --accent: #fe662a;
+    --accent: #fe662a ;
     --primary: #2b3138;
-    --secondary: #202329;
-    --text-primary: #fff;
-    --text-secondary: #ccc;
-    --text-background: #252932;
-    --dark: #222832;
+    --secondary:#202329;
+    --text-primary:#fff;
+    --text-secondary:#ccc;
+    --text-bg:#252932;
+    --dark:#222832;
 }
 
 body{
@@ -18,16 +18,14 @@ body{
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
-
 ::-webkit-scrollbar-track{
     background: #111;
 }
-
 ::-webkit-scrollbar-thumb{
-    background: var(--accent);
+  background: var(--accent);
 }
 
 h3{
@@ -40,7 +38,7 @@ a{
 }
 
 p{
-    font-size: 0,7em;
+    font-size: 0.7em;
     color: var(--text-secondary);
     max-width: 25em;
     line-height: 21px;
